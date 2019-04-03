@@ -403,3 +403,22 @@ origin的dev分支到本地）
 - pwd（linux命令）
 	
 		pwd 显示当前目录
+		
+## 4 我的总结
+		1、git config --global user.name "usernme"
+
+		2、git config --global user.email "emailName"
+
+		3、git bash 进入工程目录：git init
+
+		4、使用 git add filename 将文件添加到库
+### git add 文件夹/            添加整个文件夹及内容
+### git add *.文件类型       添加目录中所有此文件类型的文件
+		5、使用 git commit -m "first commit" 进行提交
+		6、本地与仓库进行配对 
+		git remote add origin git@github.com:940408data/learngit.git
+		7、把本地的内容推送到仓库中 
+		git push  -u origin master
+		8 git status
+		#从远程克隆到本地
+		9 git clone git@github.com:940408data/bootstrap.git
